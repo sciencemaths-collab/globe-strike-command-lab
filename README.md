@@ -4,6 +4,12 @@ A browser-based **fictional global conflict simulation sandbox** that combines g
 
 The project is designed as a game / simulation environment. Its country, doctrine, inventory, reliability, readiness, and engagement values are synthetic or game-normalized unless explicitly marked otherwise.
 
+## Application interface
+
+![Globe Strike Command Lab graphical interface](assets/globe-strike-command-lab-gui.png)
+
+The browser interface brings the attack panel, defensive-intercept controls, interactive globe, automated campaign simulation, AI director, and command-status reporting into one operational-style simulation workspace.
+
 ## Highlights
 
 - Interactive 3D-style globe / geospatial conflict visualization
@@ -93,6 +99,8 @@ port through 8095 and prints the selected address in the terminal.
 ├── .gitignore
 ├── LICENSE
 ├── README.md
+├── assets/
+│   └── globe-strike-command-lab-gui.png # Application interface screenshot
 ├── docs/
 │   └── ARCHITECTURE.md
 └── .github/
@@ -123,6 +131,12 @@ GitHub Actions performs the same compile validation for every push and pull requ
 The engine intentionally separates **AI policy**, **campaign logic**, **physics / state evolution**, and **statistics**. The AI influences the simulation through bounded policy controls while the numerical engine remains responsible for state transitions and outcomes.
 
 See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the high-level data flow.
+
+## Disclaimer
+
+Globe Strike Command Lab is a fictional software simulation created for game-development, visualization, educational, research, and software-demonstration purposes. It is not a real command-and-control system, weapons platform, targeting service, intelligence product, or source of operational military guidance. Countries, inventories, capabilities, outcomes, readiness values, and engagement behavior shown by the application are synthetic, simplified, or game-normalized and must not be treated as verified real-world information.
+
+The software is provided without warranties. Users are solely responsible for using it lawfully, ethically, safely, and in accordance with all applicable regulations and third-party terms. The authors and contributors do not endorse violence, unlawful surveillance, unauthorized targeting, or harmful real-world use.
 
 ## License
 
