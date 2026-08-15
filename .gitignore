@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+.env
+openai_game_config.json
+openai_game_config.template.json
+.venv/
+venv/
+globe_strike_command_lab.html
